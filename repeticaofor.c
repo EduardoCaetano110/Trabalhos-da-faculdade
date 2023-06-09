@@ -12,12 +12,15 @@ void main(){
     int numFinal = 0;
     int quantidadeTotalDePar = 0;
 
+          //Local de por os números. 
+
     printf("Digite um número inicial: ");
     scanf("%d", &numIni);
 
     printf("Digite um número Final: ");
     scanf("%d", &numFinal);
 
+// Para evitar bugs.
     if (numFinal < numIni ){
         numIni= 0;
         numFinal= 0;
