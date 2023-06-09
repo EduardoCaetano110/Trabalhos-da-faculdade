@@ -7,7 +7,7 @@ void main(){
     unsigned int CPAGE_UTF8 = 65001;
     unsigned int CPAGE_DEFAULT = GetConsoleOutputCP();
     SetConsoleOutputCP(CPAGE_UTF8);
-    
+
     int numIni = 0;
     int numFinal = 0;
     int quantidadeTotalDePar = 0;
@@ -35,4 +35,6 @@ void main(){
             }
         }
         printf("O total de pares é: %d\n", quantidadeTotalDePar); 
+
+        
 }
